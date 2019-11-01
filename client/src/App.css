@@ -1,0 +1,48 @@
+.hide {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.stretched-link h5 {
+  text-decoration: none;
+}
+body a {
+  text-decoration: none;
+}
+#box {
+  margin-bottom: 30px;
+}
+.btn {
+  margin-right: 10px !important;
+}
+.card {
+  border: none !important;
+}
+.card:hover {
+  border: 2px solid gray;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.embed-responsive {
+  margin-bottom: 25px;
+}
+embed {
+  border: 2px solid black;
+}
+.vhcenter {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  display: flex;
+}
+
+.modal-lg {
+  max-width: 100% !important;
+}
