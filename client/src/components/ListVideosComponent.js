@@ -19,9 +19,8 @@ export default class ListVideosComponent extends Component {
         var a3 = a2.split("=");
         if (response.data.youtubelink.match(/user/g)) {
           var link = this.state.videos.concat(
-            "http://www.youtube.com/embed/?listType=user_uploads&list=" + a3
+            "https://www.youtube.com/embed/?listType=user_uploads&list=" + a3
           );
-          console.log(link);
           this.setState({
             videos: link,
             data: true
