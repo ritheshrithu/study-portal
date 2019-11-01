@@ -72,7 +72,7 @@ export default class ListVideosComponent extends Component {
       </div>
     ) : (
       <div className="container">
-        <div className="jumbotron alert alert-warning">Fetching Data...</div>
+        <div className="jumbotron alert alert-warning">Fetching Data....</div>
       </div>
     );
   }
