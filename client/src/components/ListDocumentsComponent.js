@@ -85,7 +85,7 @@ export default class ListDocumentsComponent extends Component {
                     >
                       <div className="embed-responsive embed-responsive-16by9">
                         <object
-                          data={`http://localhost:5000/documents/${tech.filename}#toolbar=0&navpanes=0&view=Fit`}
+                          data={`documents/${tech.filename}#toolbar=0&navpanes=0&view=Fit`}
                           type="application/pdf"
                           width="100%"
                           height="850"
