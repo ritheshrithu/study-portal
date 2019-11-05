@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://rithu:rithu007@studyportal-mlg6o.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "myJwtSecret"
+  "mongoURI": "YOUR_MONGO_URI",
+  "jwtSecret": "YOUR_MONGO_SECRET"
 }
